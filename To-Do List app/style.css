@@ -1,0 +1,65 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:lightblue;
+}
+
+.container {
+    border: none;
+    border-radius: 17px;
+    background-color: cyan;
+    height: auto;
+    width: 25vw;
+    box-shadow: 4px 5px 6px;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    border-bottom: 0.5px solid lightslategray;
+    margin-bottom: 20px;
+}
+
+.addtask {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    padding:7px ;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: ipx solid black;
+    box-shadow: 2px 2px 2px;
+}
+
+button {
+    background-color:#3674B5;
+    padding: 4px;
+    color: black;
+    border-radius: 6px;
+}
+
+ul {
+    padding: 15px;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 7px;
+}
